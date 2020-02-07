@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, #0852de, #2f50e3, #464de7, #594aeb, #6a45ee);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-width: 2560px;
+    font: 1em sans-serif;
+   
+}
+h1{
+    position: relative;
+    text-align: center;
+    top: 5vh;
+    color: #fff;
+}
+hr{
+    position: relative;
+    top: 5vh;
+    color: honeydew;
+    
+}
+.wrapper{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    top: 20vh;
+}
+.title{
+    
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.in{
+    position: relative;
+    border: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.username{
+    position: relative;
+   border-top-left-radius: 15px;
+}
+.but{
+    margin-top: 50px;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
+    border: none;
+    padding: 20px;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 25px;
+
+}
+.but:hover{
+    background: transparent;
+    border: 1px solid rgba(0,0,0,.5);
+    cursor: pointer;
+}
+
+.pass{
+    position: relative;
+    border-bottom-right-radius:15px ;
+} 
+.for-get{
+text-decoration: none;
+color: #fff;
+text-decoration: underline;
+font-family: monospace;
+font-size: 16px;
+}
+.main-nav{
+    position: relative;
+    top: 10vh;
+}
+.nav-left{
+    display: flex;
+    justify-content: left;
+}
+
+li{
+    display: inline-block;   
+}
+
+li a{
+    color: #fff;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 40px;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+li a:hover{
+    border: 1px solid rgba(0,0,0,.5);
+    padding: 10px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 15px;
+   
+}
+
+
+@media (max-width:768px){
+    .main-nav{
+        position: relative;
+        top: 5vh;
+        text-align: left;
+        margin: 0 0 0 -20px;
+        
+    }
+    
+    .wrapper{
+        top: 10vh;
+    }
+
+
+    li{
+        display: block;   
+    }
+    
+    li a{
+        color: #fff;
+        font-size: large;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+        text-decoration: none;
+        padding: 0;
+        
+    }
+    
+    li a:hover{
+        border: 1px solid rgba(0,0,0,.5);
+        padding: 0;
+       
+        background-color: rgba(0,0,0,.5);
+        border-radius: 15px;
+       
+    }
+    
+}
